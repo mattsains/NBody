@@ -12,7 +12,7 @@ namespace NBody
         public Vector2Double Velocity { get; set; } //m/s
         public double Mass { get; private set; } //kg
 
-        public MassObject (Vector2Double position, Vector2Double velocity, double mass)
+        public MassObject(Vector2Double position, Vector2Double velocity, double mass)
         {
             this.Position = position;
             this.Velocity = velocity;

@@ -5,10 +5,13 @@ using System.Text;
 
 namespace NBody
 {
+    /// <summary>
+    /// Partially rewritten Vector2 class for doubles instead of floats
+    /// </summary>
     class Vector2Double
     {
-        public double X;
-        public double Y;
+        public double X { get; set; }
+        public double Y { get; set; }
 
         public Vector2Double(double X, double Y)
         {
